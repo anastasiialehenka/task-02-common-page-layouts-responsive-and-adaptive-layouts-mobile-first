@@ -11,18 +11,20 @@
     </head>
     <body>
         <div class="wrapper">
-            <header class="header">
-                <div class="header__top">
-                    <a class="header__logo" href="#"><img class="header__image" src="images/logo.svg" alt="logo"></a>
-                    <button class="header__button">Sign-in</button>
+            <header class="page-header">
+                <div class="page-header__container">
+                    <div class="page-header__logo-line">
+                        <a class="page-header__logo" href="#"><img class="page-header__image" src="images/logo.svg" alt="logo"></a>
+                        <button class="page-header__button">Sign-in</button>
+                    </div>
+                    <nav class="page-header__nav">
+                        <ul class="page-header__list list">
+                            <li class="page-header__item"><a class="page-header__link" href="#">Services</a></li>
+                            <li class="page-header__item"><a class="page-header__link" href="#">About</a></li>
+                            <li class="page-header__item"><a class="page-header__link" href="#">Contact us</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="header__nav">
-                    <ul class="header__list list">
-                        <li class="header__item">Services</li>
-                        <li class="header__item">About</li>
-                        <li class="header__item">Contact us</li>
-                    </ul>
-                </nav>
             </header>
             <main class="main">
                 <section class="our-mission section">
@@ -64,23 +66,21 @@
             </main>
             <footer class="footer">
                 <div class ="footer__container">
-                    <nav class="footer__nav">
+                    <div class="footer__links-section">
                         <ul class="footer__list list">
-                            <li class="footer__item">About</li>
-                            <li class="footer__item">Faq</li>
-                            <li class="footer__item">Work with us</li>
+                            <li class="footer__item"><a class="footer__link">About</a></li>
+                            <li class="footer__item"><a class="footer__link">Faq</a></li>
+                            <li class="footer__item"><a class="footer__link">Work with us</a></li>
                         </ul>
-                    </nav>
-                    <nav class="social">
                         <ul class="social__list list">
-                            <li class="social__icon--outline"><span class="icon-envelope icon"></span></li>
-                            <li class="social__icon--outline"><span class="icon-facebook icon"></span></li>
-                            <li class="social__icon--outline"><span class="icon-twitter icon"></span></li>
+                            <li class="social__icon--outline"><a class="footer__link--icon"><span class="icon-envelope"></span></a></li>
+                            <li class="social__icon--outline"><a class="footer__link--icon"><span class="icon-facebook"></span></a></li>
+                            <li class="social__icon--outline"><a class="footer__link--icon"><span class="icon-twitter"></span></a></li>
                         </ul>
-                    </nav>
+                    </div>
                     <div class="footer__text">
-                        <p class="footer__line">Privacy Policy</p>
-                        <p class="footer__line">Terms and Conditions</p>
+                        <p class="footer__line"><a class="footer__link">Privacy Policy</a></p>
+                        <p class="footer__line"><a class="footer__link">Terms and Conditions</a></p>
                         <p class="footer__line">&#169; Company.LLC 2014</p>
                     </div>
                 </div>
