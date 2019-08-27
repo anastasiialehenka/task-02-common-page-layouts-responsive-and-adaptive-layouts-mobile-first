@@ -12,19 +12,25 @@
     <body>
         <div class="wrapper">
             <header class="page-header">
-                <div class="page-header__container">
-                    <div class="page-header__logo-line">
-                        <a class="page-header__logo" href="#"><img class="page-header__image" src="images/logo.svg" alt="logo"></a>
-                        <button class="page-header__button">Sign-in</button>
-                    </div>
-                    <nav class="page-header__nav">
-                        <ul class="page-header__list list">
-                            <li class="page-header__item"><a class="page-header__link" href="#">Services</a></li>
-                            <li class="page-header__item"><a class="page-header__link" href="#">About</a></li>
-                            <li class="page-header__item"><a class="page-header__link" href="#">Contact us</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <nav class="page-header__nav">
+                    <a class="page-header__logo-link" href="#">
+                        <svg class="page-header__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 80">
+                        <path
+                                fill="#464547"
+                                d="M42.9 35.8v14.5c0 3.7 1.8 5.5 5.5 5.5H50c3.7 0 5.5-1.8 5.5-5.5v-7.1H64V50c0 9.3-4.7 14.1-14.1 14.1h-1.8c-9.3 0-14.1-4.7-14.1-13V15.5C34 5.1 38.7.3 48.1.3h1.8C59.2.3 64 5 64 14.4v21.3H42.9zm0-8.5h12.5V14.1c0-3.7-1.8-5.5-5.5-5.5h-1.4c-3.7 0-5.5 1.8-5.5 5.5v13.2zM69.8 1.1h8.8v4C80.7 2.9 84.3.4 89.3.4c7.5 0 11.2 5 11.2 12.3v39c0 7.4-3.7 12.3-11.2 12.3-5.1 0-8.6-2.4-10.7-4.5v20.1h-8.8V1.1zm8.8 51.4c2.4 2.1 5.2 3.2 8.1 3.2 3.2 0 5.1-1.5 5.1-5.1V13.8c0-3.6-1.8-5.1-5.1-5.1-2.9 0-5.7 1.2-8.1 3.2v40.6zM105.8 41.7c0-7.7 2.5-10.8 9.2-13.1l11.8-4V14.1c0-3.7-1.8-5.7-5.5-5.7h-1.4c-3.7 0-5.5 2-5.5 5.7v8.8h-8.5v-8.5c0-9.3 4.7-14.1 14.1-14.1h1.7c9.3 0 14.1 4.7 14.1 14.1v48.9H127v-3.9c-2.4 2.3-5.7 4.6-10.7 4.6-7 0-10.3-4-10.3-11V41.7zm21 11.1V32.3l-8 3c-3.2 1.3-4.3 2.9-4.3 6.5v9.5c0 3 1.5 4.5 4.3 4.5 2.7-.1 5.1-1 8-3zM171 63.3h-8.8V13.2c0-3.1-1.5-4.5-4.2-4.5-2.4 0-5 .9-8.1 3.1v51.5h-8.8V1.1h8.8v4c2.5-2.4 5.9-4.7 10.7-4.7 4.5 0 7.5 1.8 9.1 5.1 3.1-2.7 6.8-5.1 11.9-5.1 6.8 0 10.3 4.2 10.3 11v52h-8.8V13.2c0-3.1-1.5-4.5-4.2-4.5-2.4 0-5 .9-8.1 3.1v51.5z"
+                        />
+                        <path
+                                fill="#00B5D1"
+                                d="M22.9 6.8v11.5l-14.7 14 14.7 13.8v11.7L.4 36.6v-8.4L22.9 6.8zM225.6 28.2v8.4l-22.5 21.2V46.1l14.7-13.8-14.7-14.1V6.8l22.5 21.4z"
+                        /></svg>
+                    </a>
+                    <button class="page-header__button">Sign-in</button>
+                    <ul class="page-header__list list">
+                        <li class="page-header__item"><a class="page-header__link" href="#">Services</a></li>
+                        <li class="page-header__item"><a class="page-header__link" href="#">About</a></li>
+                        <li class="page-header__item"><a class="page-header__link" href="#">Contact us</a></li>
+                    </ul>
+                </nav>
             </header>
             <main class="main">
                 <section class="our-mission section">
@@ -54,13 +60,20 @@
                             <p class="gallery__post">CEO finance</p>
                         </div>
                     </div>
-                    <p class="team__text">Work with us</p>
+                    <a class="team__text">Work with us</a>
                 </section>
                 <section class="newsletter section">
                     <h2 class="newsletter__header heading">Newsletter</h2>
                     <p class="newsletter__desc desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500's, when an unknown.</p>
                     <form class="newsletter__form form">
                         <input class="form__input" type="email" placeholder="Enter Email">
+                        <button class="form__send-button" type="submit">
+                            <svg class="form__send-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
+                                <g>
+                                    <path fill="#0EBFDD" stroke="null" d="M62.405 15.817c.485-.386 1.206-.025 1.206.584v25.433a5.971 5.971 0 0 1-5.97 5.97H5.906a5.971 5.971 0 0 1-5.97-5.97v-25.42c0-.622.71-.97 1.207-.585 2.786 2.164 6.48 4.913 19.164 14.128 2.624 1.915 7.052 5.945 11.467 5.92 4.44.037 8.954-4.08 11.479-5.92 12.685-9.215 16.366-11.976 19.152-14.14zM31.774 31.885c2.885.05 7.039-3.632 9.128-5.149 16.503-11.976 17.76-13.02 21.565-16.006a2.976 2.976 0 0 0 1.144-2.35V6.017a5.971 5.971 0 0 0-5.97-5.97H5.906a5.971 5.971 0 0 0-5.97 5.97V8.38c0 .92.423 1.778 1.145 2.35 3.805 2.973 5.061 4.03 21.564 16.006 2.09 1.517 6.243 5.199 9.129 5.149z"></path>
+                                </g>
+                            </svg>
+                        </button>
                     </form>
                 </section>
             </main>
@@ -73,14 +86,14 @@
                             <li class="footer__item"><a class="footer__link">Work with us</a></li>
                         </ul>
                         <ul class="social__list list">
-                            <li class="social__icon--outline"><a class="footer__link--icon"><span class="icon-envelope"></span></a></li>
+                            <li class="social__icon--outline"><a class="footer__link--icon"><i class="icon-envelope"></i></a></li>
                             <li class="social__icon--outline"><a class="footer__link--icon"><span class="icon-facebook"></span></a></li>
                             <li class="social__icon--outline"><a class="footer__link--icon"><span class="icon-twitter"></span></a></li>
                         </ul>
                     </div>
                     <div class="footer__text">
-                        <p class="footer__line"><a class="footer__link">Privacy Policy</a></p>
-                        <p class="footer__line"><a class="footer__link">Terms and Conditions</a></p>
+                        <a class="footer__line">Privacy Policy</a>
+                        <a class="footer__line">Terms and Conditions</a>
                         <p class="footer__line">&#169; Company.LLC 2014</p>
                     </div>
                 </div>
